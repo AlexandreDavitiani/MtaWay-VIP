@@ -14,9 +14,15 @@
       color: gold;
       font-size: 24px;
     }
+    nav a {
+      text-decoration: none;
+    }
     .hero {
       height: 100vh;
-      background: url('file:///C:/Users/alexa/Desktop/MTAWAY.VIP/img/ht.jpg') center/cover no-repeat;
+      
+       background-image: url('img/ht.jpg');
+  background-size: cover;
+  background-position: center;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -64,3 +70,6 @@
     a{
         font-style: none;
     }
+#tour option{
+background-color: #0f0f0f;
+}
